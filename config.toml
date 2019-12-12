@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "History Lessons"
 
 enableRobotsTXT = true
 
@@ -53,19 +53,23 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
+title = "History Lessons"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.no]
-title = "Goldydocs"
+title = "History Lessons"
 description = "Docsy er operativsystem for skyen"
 languageName ="Norsk"
 contentDir = "content/no"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Everything below this are Site Params
 
